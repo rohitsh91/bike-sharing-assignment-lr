@@ -43,6 +43,8 @@ Model the demand for shared bikes with the available independent variables. It w
 - #### weather:
   - a good weather with coeffient of 0.092103 implies weather affects the sale in positive manner, for good weather conditions, sales would increase
 
+cnt = 0.038646 + yr(0.236853) + temp(0.547216) + windspeed(-0.177210) + season_summer(0.091523) + season_winter(0.119440) + mnth_sept(0.094638) + weathersit_good*(0.092103)  
+
 ##### It is recommended to give utmost importance to these variables while planning to achieve maximum bike rental booking  
 
 ## Contact
